@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <script src="manageTasks.js"></script>
+    <link rel="stylesheet" type="text/css" href="task_styles.css">
+
+
+</head>
+
+<body>
+
+   <div class="box">
+        <h1>My To-Do List</h1>
+        <div class="divider"></div>
+            <form id="taskform">
+                <input type="text" id="title-input" placeholder="Add a New Task" maxlength="40" />
+                <select id="priority-input" placeholder="Select Priority">
+                    <option value="High">High Priority</option>
+                    <option value="Med">Medium Priority</option>
+                    <option value="Low">Low Priority</option>
+                </select>
+                <input type="radio" id="status-input" name="status-input" value="false"> In Progress
+                <input type="radio" id="status-input" name="status-input" value="true">  Completed
+
+                <input type="submit" id="submit-btn" value="Create Task"/>
+            </form>
+
+            <div class="divider"></div>
+           
+            <h3 >Active Tasks</h3>
+            <ul id="active">
+
+            </ul>
+            
+
+    </div>
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(241, 255, 251);
+}
+
+.divider{
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.box{
+    height: auto;
+    width: 500px;
+    margin:auto;
+    padding: 10px;
+    background-image: linear-gradient(pink, orange);
+    border-radius: 25px;
+
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    list-style: none;
+    margin-left: -25px;
+    margin-bottom: 15px;
+}
+
+
+h1, h3{
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+}
+
+#taskform{
+    
+    width: 100%;
+    
+}
+#title-input {
+    
+    font-size: 16px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    margin: 2px 10px;
+    padding: 5px;
+    
+}
+
+#priority-input{
+    font-size: 16px;
+    display: inline-block;
+    width: 46%;
+    border: none;
+    border-radius: 5px;
+    margin: 2px 2px 2px 10px;
+    padding: 5px;
+}
+
+#submit-btn{
+    font-size: 16px;
+    display: inline-block;
+    width: 92%;
+    background-color:rgb(40, 40, 40);
+    color: white;
+    margin: 2px 3px 2px 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+#submit-btn:hover{
+    background-color: rgb(25, 25, 25);
+}
+
+.complete{
+    font-size: 16px;
+    width: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+}
+.complete:hover{
+    background-color: rgb(25, 25, 25);
+}
+
+#check{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.priority-tag{
+    width: auto;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.High{
+    color: rgb(255, 51, 0);
+}
+.Med{
+    color: rgb(255, 225, 0);
+}
+.Low{
+    color: rgb(17, 255, 0);
+}
+
+.remove{
+    font-size: 16px;
+    width: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    border: none;
+    border-radius: 5px;
+    float: right;
+    margin-right: 30px;
+}
+.remove:hover{
+    background-color: rgb(25, 25, 25);
+}

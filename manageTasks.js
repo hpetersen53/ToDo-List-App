@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let new_task_html = `
                                 <span class="priority-tag ${task_priority}">${task_priority}</span>
                                 <span id="task-title">${task_title}</span>
-                                <button class="Remove"> Remove </button>
+                                <button class="remove"> Remove </button>
             
                             `;
         li.innerHTML = new_task_html
